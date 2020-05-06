@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@font-face {
+  font-family: GreatVibes;
+  src: url("./GreatVibes-Regular.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+section {
+  background-image: url("./bg_4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.columns {
+  margin: 0 !important;
+}
+
+.columns:not(:last-child) {
+  margin-bottom: 0px !important;
+}
+
+.about-left {
+  height: 650px;
+  background-image: url("./about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-right {
+  margin: auto 0;
+}
+
+.our-story {
+  max-width: 760px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  position: relative;
+  left: -100px;
+}
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px !important;
+  color: white !important;
+}
+
+.discover {
+  letter-spacing: .2rem;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-bottom: 0;
+  font-family: "GreatVibes", cursive;
+  color: #c49b63;
+  z-index: 1;
+  margin-bottom: -19px;
+  display: block;
+}
+
+.text {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: gray;
+  margin: 10px 0 30px 0;
+}

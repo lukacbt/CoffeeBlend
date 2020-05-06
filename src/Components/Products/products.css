@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.product-menu {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.product-container {
+  display: inline-block;
+  width: 255px;
+  height: 438px;
+  margin: 48px 15px;
+  text-align: center;
+}
+
+.products-img-container {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-title {
+  margin-bottom: 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.product-text {
+  margin-bottom: 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: gray;
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.product-price {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.8;
+}
+
+.product-btn {
+  border: 1px solid #c49b63;
+  background-color: transparent;
+  color: #c49b63;
+  padding: 6px 12px;
+  transition: 0.2s ease-in-out;
+}
+
+.product-btn:hover {
+  background-color: #c49b63;
+  color: white;
+}

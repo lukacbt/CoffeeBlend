@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.tape-container {
+  padding: 2% 5% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tape-component {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 298px;
+}
+
+.tape-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.tape-icon g {
+  fill: #c49b63;
+}
+
+.tape-info {
+  padding-right: 3% !important;
+}
+
+.tape-info h3 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.tape-info p {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 15px;
+  color: gray;
+  line-height: 27px;
+}

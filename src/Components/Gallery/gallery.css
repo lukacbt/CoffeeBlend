@@ -1,0 +1,61 @@
+.gallery {
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-container {
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-img-container {
+  display: inline-block;
+  height: 300px;
+  width: 24.7vw;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-box {
+  z-index: -1;
+  opacity: 0;
+  position: absolute;
+  border: 1px solid #c49b63;
+  background-color: #c49b63;
+  width: 50px;
+  height: 50px;
+  transition: 0.35s ease-in-out;
+}
+
+.gallery-img-container:hover .search-box {
+  transform: rotate(135deg);
+  opacity: 1;
+}
+
+.search-icon {
+  width: 18px;
+  opacity: 0;
+  transition: 0.35s;
+}
+
+.search-icon g {
+  fill: white;
+}
+
+.gallery-img-container:hover .search-icon {
+  opacity: 1;
+}
+
+.modal-content {
+  cursor: pointer;
+}

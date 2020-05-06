@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.carousel-background {
+  height: 750px;
+}
+
+.carousel-content-container {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.carousel ul {
+  padding-bottom: 75px;
+  margin: 0 auto;
+}
+
+.slick-dots li button::before {
+  color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  font-size: 16.4px;
+  height: 22px;
+  width: 22.3px;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.slick-dots li button:hover::before {
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+
+.carousel-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 750px;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.carousel-img-container {
+  padding-top: 119.5px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-img-container span {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.carousel-img-container h2 {
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.carousel-img-container p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.carousel-btns {
+  margin: -80px auto 0 auto;
+  z-index: 2;
+}
+
+.carousel-btn {
+  margin: 0 2.5px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 13px;
+  padding: 16px 24px;
+  z-index: 3;
+}
+
+.carousel-btn-left {
+  color: black;
+  border: 1px solid #c49b63;
+  background-color: #c49b63;
+  transition: 0.2s ease-in-out;
+}
+
+.carousel-btn-left:hover {
+  background-color: transparent;
+  color: #c49b63;
+}
+
+.carousel-btn-right {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.carousel-btn-right:hover {
+  background-color: #c49b63;
+  border: 1px solid #c49b63;
+  color: black;
+}
+

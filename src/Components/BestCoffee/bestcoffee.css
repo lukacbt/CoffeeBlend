@@ -1,0 +1,9 @@
+.coffies-products-container {
+  padding-bottom: 105px;
+}
+
+.coffies-products-container .product-menu {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}

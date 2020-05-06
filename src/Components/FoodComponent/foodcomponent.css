@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.full-menu {
+  max-width: 570px;
+  background-color: transparent;
+  padding: 0 15px 16px 15px;
+  margin-bottom: 48px;
+}
+
+.full-menu-title {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 48px;
+  line-height: 33.6px;
+}
+
+.full-menu-container {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.full-menu-image {
+  width: 86px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.full-menu-name {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+
+.full-menu-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.full-menu-dish-name {
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+.full-menu-dish-name span:first-child {
+  color: #bfbfbf;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 25.2px;
+  padding-right: 1em;
+  background-image: url("./bg_4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: initial;
+}
+
+.full-menu-dish-name span:last-child {
+  color: #c49b63;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28.8px;
+  float: right;
+  padding-left: 1em;
+  background-image: url("./bg_4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: initial;
+
+}
+
+.full-menu-dish-name li::before {
+  color: #c49b63;
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: "..........................................................."
+  "......................................................................."
+  "......................................................................."
+}
+
+.full-menu-dish-text {
+  color: gray;
+  font-size: 15px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.8;
+}

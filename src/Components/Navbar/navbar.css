@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.navbar {
+  background-color: transparent !important;
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-right span {
+  cursor: pointer;
+  padding: 24px 20px;
+  font-size: 13px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 2px;
+  line-height: 23.4px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-right span:hover {
+  color: #c49b63;
+}
+
+.navbar-left {
+  text-align: center;
+}
+
+.navbar-left p {
+  cursor: pointer;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  padding-left: 20px;
+  margin-top: 7px;
+  text-transform: uppercase;
+}
+
+.navbar-left span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 12px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.active-nav {
+  color: #c49b63 !important;
+}
+
+.second-navbar {
+  width: 100%;
+  left: 0;
+  background-color: #151111;
+}
+
+.second-navbar .navbar {
+  position: fixed !important;
+  background-color: #151111 !important;
+  top: -100px !important;
+  border: 0;
+  transition: all 0.4s !important;
+}
+
+.second-navbar .sticky-navbar {
+  position: fixed !important;
+  top: 0 !important;
+  transition: top 0.4s !important;
+}

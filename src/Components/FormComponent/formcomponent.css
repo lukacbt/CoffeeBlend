@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.book-form-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.book-paragraph {
+  margin: 0px 20px 16px 20px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+}
+
+.book-form {
+  background-color: transparent !important;
+  margin: 0 20px;
+  padding: 6px 0;
+  height: 58px;
+  width: 100%;
+  border: 0;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.book-form option {
+  color: black;
+}
+
+.book-form::placeholder {
+  color: white;
+}
+
+.book-form-btn {
+  width: 100%;
+  background-color: #c49b63;
+  border: 1px solid #c49b63;
+  color: black;
+  font-family: "Poppins", Arial, sans-serif;
+  transition: 0.2s ease-in-out;
+}
+
+.book-form-btn:hover {
+  background-color: black;
+  color: #c49b63;
+}
+
+.table-form-btn {
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-family: "Poppins", Arial, sans-serif;
+  transition: 0.2s ease-in-out;
+}
+
+.table-form-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}

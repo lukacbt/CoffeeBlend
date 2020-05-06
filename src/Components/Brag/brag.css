@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.brags-section {
+  background-image: url(./bg_2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.brags {
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 86px 0;
+}
+
+.brags-list {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0 2%;
+}
+
+.each-brag {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.brag-img-container {
+  margin-bottom: 25px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.brag-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #c49b63;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.brag-img-container:hover .brag-img {
+  background-color: #c49b63;
+  transform: rotate(135deg);
+}
+
+.brag-img-container:hover .coffee-cup g {
+  fill: black;
+}
+
+.brag-number {
+  font-size: 30px;
+  font-weight: bold;
+  color: #c49b63;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.brag-subtitle {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #bfbfbf;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 27px;
+}
+
+.coffee-cup {
+  width: 40px;
+  height: 40px;
+}
+
+.coffee-cup g {
+  fill: #c49b63;
+}
+
+

@@ -1,0 +1,13 @@
+.tape {
+  position: relative;
+  background-color: black;
+}
+
+.tape-form {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 24px;
+  background-color: #c49b63;
+}

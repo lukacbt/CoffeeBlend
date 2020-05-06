@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.customer-comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.customers {
+  background-image: url("./bg_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.customer-comment-div {
+  padding: 26px;
+  width: 20vw;
+}
+
+.customers-comment {
+  margin-bottom: 30px;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.customers-img {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.customers-img img {
+  border-radius: 50%;
+}
+
+.customers-paragraph {
+  height: 48px;
+  display: inline-block;
+}
+
+.customers-name {
+  font-size: 15px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: white;
+}
+
+.customers-role {
+  font-size: 12px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0,6);
+}

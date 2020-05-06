@@ -1,0 +1,15 @@
+.food {
+  padding: 105px 0 0px 0 !important;
+}
+
+.food-left {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.food-right {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}

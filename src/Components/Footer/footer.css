@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.footer {
+  background-color: #151111 !important;
+  padding: 105px 0 129px 0;
+}
+
+.footer-div {
+  padding: 0;
+}
+
+.footer-div p {
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0,7);
+  line-height: 29px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logo {
+  margin-top: -40px;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.social {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 42px 10px 0 10px;
+}
+
+.facebook-social {
+  margin-left: 0px;
+}
+
+.social-logo {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+.social-logo g {
+  fill: white;
+}
+
+.footer-title {
+  color: white;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.footer-services-div {
+  padding-left: 50px;
+}
+
+.footer-services-div p {
+  padding: 4px 0;
+}
+
+.footer-question-divs {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.contact-logo-container {
+  display: flex;
+}
+
+.contact-logo {
+  width: 15px;
+  margin-right: 15px;
+}
+
+.contact-logo g {
+  fill: white;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0,7);
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: #151111;
+  margin-top: -105px;
+  padding: 0;
+}
