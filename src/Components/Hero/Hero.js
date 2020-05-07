@@ -6,8 +6,7 @@ import Fade from "react-reveal/Fade"
 const Hero = ({ heroPage, handlePage }) => {
   return(
     <section>
-      <div className="hero" style={{backgroundImage: `url(${bg})`}}>
-        <div className="carousel-overlay"></div>
+      <div className="hero" style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${bg})`}}>
         <Fade bottom duration={1000} distance={"75px"}>
           <div className="hero-container">
             <p className="hero-title">{heroPage}</p>

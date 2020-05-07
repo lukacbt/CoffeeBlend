@@ -31,7 +31,7 @@ class Carousel extends React.Component {
       <div className="carousel">
         <Slider {...settings}>
             <div className="carousel-background">         
-              <div className="carousel-img-container" style={{background: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${bg1})`}}>
+              <div className="carousel-img-container" style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${bg1})`}}>
                 <div className="carousel-overlay"></div>
                 <Fade bottom distance={"75px"} duration={1000}>
                   <div className="carousel-content-container">
@@ -62,7 +62,7 @@ class Carousel extends React.Component {
               </div>
             </div>
             <div className="carousel-background">
-              <div className="carousel-img-container" style={{background: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${bg3})`}}>
+              <div className="carousel-img-container" style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${bg3})`}}>
                 <TitleComponent 
                   goldTitle="Welcome"
                   whiteTitle="Creamy hot and ready to serve"
