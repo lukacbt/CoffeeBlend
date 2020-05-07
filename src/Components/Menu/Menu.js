@@ -12,7 +12,7 @@ const Menu = ({ handlePage }) => {
     <section>
       <div className="columns menu">
 
-          <div className="column is-offset-2 is-4 menu-left">
+          <div className="column is-offset-2-desktop is-4-desktop is-offset-2-tablet is-4-tablet menu-left">
             <Fade bottom distance={"100px"} duration={1000}>
               <div className="menu-left-content-container">
                 <p className="title"> <span className="discover">Discover</span>OUR STORY</p>
@@ -27,7 +27,7 @@ const Menu = ({ handlePage }) => {
             </Fade>
           </div>
 
-          <div className="column is-4 menu-right">
+          <div className="column is-6-desktop is-6-tablet menu-right">
             <div className="menu-right-container1">
               <div className="menu-img-left">
                 <div className="bcg-container" style={{backgroundImage: `url(${menu1})`}}></div>
