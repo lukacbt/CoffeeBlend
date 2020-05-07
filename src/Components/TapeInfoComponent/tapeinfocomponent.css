@@ -42,3 +42,33 @@
   color: gray;
   line-height: 27px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .tape-container {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tape-container {
+    flex-direction: column;
+    padding: 30px !important;
+  }
+
+  .tape-component {
+    max-width: 100%;
+  }
+
+  .tape-info {
+    padding: 0 !important;
+    margin-bottom: 18px ;
+  }
+
+  .tape-info h3 {
+    margin-bottom: 0px;
+  }
+
+  .tape-icon {
+    margin-right: 20px;
+  }
+}

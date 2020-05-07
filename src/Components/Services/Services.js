@@ -38,7 +38,7 @@ class Services extends Component {
     return (
       <section>
         <div className="columns services">
-          <div className="column is-offset-2 is-offset-0-touch is-8-desktop is-12-touch services-list">
+          <div className="column is-offset-2-desktop is-offset-0-tablet is-8-desktop is-12-tablet services-list">
             {servicesInfo.map(service => {
               return(
                 <Fade key={service.title} bottom distance={"100px"} duration={1000} delay={service.delay}>

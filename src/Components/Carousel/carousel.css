@@ -115,3 +115,15 @@
   color: black;
 }
 
+@media only screen and (max-width: 768px) {
+  .carousel-btns {
+    margin: -40px auto 0 auto;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .carousel-background .component-title {
+    font-size: 32px !important;
+  }
+}
+

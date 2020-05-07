@@ -12,7 +12,7 @@ const Tape = () => {
   return (
     <section>
       <div className="columns tape">
-        <div className="column is-offset-1-desktop is-7-desktop is-8-touch tape-container">
+        <div className="column is-offset-1-desktop is-7-desktop is-8-tablet is-12-mobile tape-container">
           <Fade bottom distance={"75px"}>
             <TapeInfoComponent
               tag={Phone}

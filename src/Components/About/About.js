@@ -7,9 +7,9 @@ const About = () => {
   return (
     <section>
       <div className="columns about">
-        <div className="column is-half about-left">
+        <div className="column is-half is-12-mobile about-left">
         </div>
-        <div className="column is-half about-right">
+        <div className="column is-half is-12mobile about-right">
           <div className="our-story">
             <Fade bottom distance={"75px"} duration={1000}>
               <p className="title"> <span className="discover">Discover</span>OUR STORY</p>

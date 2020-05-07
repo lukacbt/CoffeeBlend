@@ -69,3 +69,10 @@ input:-webkit-autofill:active {
     -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
     -webkit-transition-delay: 9999s;
 }
+
+@media only screen and (max-width: 768px) {
+  .book-form-div {
+    display: block;
+    margin-bottom: 16px;
+  }
+}
