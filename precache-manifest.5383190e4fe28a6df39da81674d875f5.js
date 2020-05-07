@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32dc2f1bef874d88413ee36dc776826b",
+    "revision": "2aee9914ba174ced9c1ea539457acb79",
     "url": "/CoffeeBlend/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CoffeeBlend/static/css/2.cd1899df.chunk.css"
   },
   {
-    "revision": "ac18202ec3435707898d",
-    "url": "/CoffeeBlend/static/css/main.1152b626.chunk.css"
+    "revision": "cad97d8bcd213f324807",
+    "url": "/CoffeeBlend/static/css/main.58c2fdc2.chunk.css"
   },
   {
     "revision": "d0ab290cefe776e33159",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac18202ec3435707898d",
-    "url": "/CoffeeBlend/static/js/main.1e277aa5.chunk.js"
+    "revision": "cad97d8bcd213f324807",
+    "url": "/CoffeeBlend/static/js/main.32058068.chunk.js"
   },
   {
     "revision": "80d7be66f765536cd11a",
