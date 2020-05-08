@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .brags-section {
-  background-image: url(./bg_2.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./bg_2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .brags {
-  background-color: rgb(0, 0, 0, 0.5);
   padding: 86px 0;
 }
 
@@ -82,4 +81,11 @@
   fill: #c49b63;
 }
 
-
+@media only screen and (max-width: 1024px) {
+  .brags {
+    padding: 112px 0;
+  }
+  .brags-list {
+    flex-wrap: wrap;
+  }
+}

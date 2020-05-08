@@ -6,11 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .title-center {
-  padding: 0 20px !important;
-  margin-top: 105px;
-  margin-bottom: 64px;
+  padding: 105px 20px 64px 20px !important;
   text-align: center;
-  margin: 105px 0 64px 0;
   display: flex;
   align-items: center;
   justify-content: center;

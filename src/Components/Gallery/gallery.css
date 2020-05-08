@@ -14,7 +14,7 @@
 .gallery-img-container {
   display: inline-block;
   height: 300px;
-  width: 24.7vw;
+  width: 25%;
   margin: 0;
   padding: 0;
   background-position: center;
@@ -58,4 +58,16 @@
 
 .modal-content {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-container {
+    display: block;
+    height: auto;
+  }
+  .gallery-img-container {
+    display: block;
+    height: 300px;
+    width: 100%;
+  }
 }

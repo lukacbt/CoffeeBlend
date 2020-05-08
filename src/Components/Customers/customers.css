@@ -54,3 +54,13 @@
   font-family: "Poppins", Arial, sans-serif;
   color: rgba(255, 255, 255, 0,6);
 }
+
+@media only screen and (max-width: 1024px) {
+  .customer-comment-container {
+    display: block;
+  }
+  .customer-comment-div {
+    width: 100%;
+    padding: 32px;
+  }
+}

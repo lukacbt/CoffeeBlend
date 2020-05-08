@@ -47,7 +47,7 @@ class Brag extends Component {
           <div className="column is-offset-2 is-offset-0-touch is-8-desktop is-12-touch brags-list">
             {bragInfo.map(brag => {
               return(
-                <div key={brag.subTitle} className="column is-3-desktop">
+                <div key={brag.subTitle} className="column is-6-tablet is-12-mobile is-3-desktop">
                 <Fade bottom distance={"75px"} duration={1000} delay={brag.delay} onReveal={this.onReveal}>
                   <div className="each-brag">
                     <div className="brag-img-container">

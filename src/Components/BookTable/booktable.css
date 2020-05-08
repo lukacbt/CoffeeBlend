@@ -16,3 +16,36 @@
 .book-side {
   padding: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .book-table {
+    display: block;
+    height: auto;
+    padding: 90px 0 0 0;
+  }
+
+  .map-side {
+    padding: 16px 0;
+    height: 300px;
+  }
+
+  .book-side {
+    width: 100%;
+    display: block;
+  }
+
+  .book-side .book-form {
+    padding: 0px;
+    width: calc(100% - 40px);
+  }
+
+  .book-side-container {
+    padding: 16px 0 !important;
+  }
+
+  .book-side .book-form-btn {
+    margin: 16px 0 0 20px;
+    padding: 16px 24px;
+    width: calc(100% - 40px);
+  }
+}

@@ -7,3 +7,22 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .coffies-products-container .product-container {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .coffies-products-container .product-menu {
+    display: block;
+  }
+  .coffies-products-container .product-container {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 0;
+    height: auto;
+  }
+}
