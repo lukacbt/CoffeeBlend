@@ -81,7 +81,7 @@
   fill: #c49b63;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .brags {
     padding: 112px 0;
   }

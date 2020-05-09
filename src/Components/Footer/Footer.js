@@ -14,61 +14,63 @@ const Footer = () => {
     <section>
       <div className="columns footer">
         <div className="column is-12-touch is-offset-1-desktop is-10-desktop footer-container">
-          <div className="column is-3 footer-div">
+          <div className="column footer-logo-div is-3-desktop is-12-tablet footer-div">
             <img src={footerLogo} className="footer-logo" alt="Logo" />
           </div>
-          <div className="column is-3 footer-div">
-            <h3 className="footer-title">About us</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            <div className="footer-social">
-              <Fade bottom>
-                <div className="social facebook-social">
-                  <FacebookLogo className="social-logo" />
-                </div>
-              </Fade>
-              <Fade bottom delay={100}>
-                <div className="social">
-                  <InstagramLogo className="social-logo" />
-                </div>
-              </Fade>
-              <Fade bottom delay={200}>
-                <div className="social">
-                  <TwitterLogo className="social-logo" />
-                </div>
-              </Fade>
+          <div className="footer-after-logo is-9-desktop">
+            <div className="column is-4-desktop is-4-tablet footer-div">
+              <h3 className="footer-title">About us</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <div className="footer-social">
+                <Fade bottom>
+                  <div className="social facebook-social">
+                    <FacebookLogo className="social-logo" />
+                  </div>
+                </Fade>
+                <Fade bottom delay={100}>
+                  <div className="social">
+                    <InstagramLogo className="social-logo" />
+                  </div>
+                </Fade>
+                <Fade bottom delay={200}>
+                  <div className="social">
+                    <TwitterLogo className="social-logo" />
+                  </div>
+                </Fade>
 
-            </div>
-          </div>
-          <div className="column is-3 footer-div">
-            <div className="footer-services-div">
-              <h3 className="footer-title">Services</h3>
-              <p>Cooked</p>
-              <p>Deliver</p>
-              <p>Quality Foods</p>
-              <p>Mixed</p>
-            </div>
-          </div>
-          <div className="column is-3 footer-div">
-            <h3 className="footer-title">Have a question?</h3>
-            <div className="footer-question-divs">
-              <div className="contact-logo-container">
-                <Location className="contact-logo" />
               </div>
-              <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
             </div>
-            <div className="footer-question-divs">
-              <div className="contact-logo-container">
-                <Phone className="contact-logo" />
+            <div className="column is-4-desktop is-4-tablet footer-div">
+              <div className="footer-services-div">
+                <h3 className="footer-title">Services</h3>
+                <p>Cooked</p>
+                <p>Deliver</p>
+                <p>Quality Foods</p>
+                <p>Mixed</p>
               </div>
-              <p style={{color:"white"}}>+385 95 5999 518</p>
             </div>
-            <div className="footer-question-divs">
-              <div className="contact-logo-container">
-                <Mail className="contact-logo" />
+            <div className="column is-4-desktop is-4-tablet footer-div">
+              <h3 className="footer-title">Have a question?</h3>
+              <div className="footer-question-divs">
+                <div className="contact-logo-container">
+                  <Location className="contact-logo" />
+                </div>
+                <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
               </div>
-              <p style={{color:"white"}}>lukacbt@gmail.com</p>
+              <div className="footer-question-divs">
+                <div className="contact-logo-container">
+                  <Phone className="contact-logo" />
+                </div>
+                <p style={{color:"white"}}>+385 95 5999 518</p>
+              </div>
+              <div className="footer-question-divs">
+                <div className="contact-logo-container">
+                  <Mail className="contact-logo" />
+                </div>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lukacbt@gmail.com" target="_blank"><p style={{color:"white"}}>lukacbt@gmail.com</p></a>
+              </div>
             </div>
-          </div>
+          </div>        
         </div>
       </div>
         <div className="column is-12 copyright">

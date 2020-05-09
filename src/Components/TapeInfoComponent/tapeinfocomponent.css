@@ -43,7 +43,7 @@
   line-height: 27px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .tape-container {
     justify-content: space-between;
   }

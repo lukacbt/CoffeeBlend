@@ -28,7 +28,7 @@
   border: 1px solid #c49b63;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .dishes-products-container .product-container {
     max-width: 29%;
     width: auto;

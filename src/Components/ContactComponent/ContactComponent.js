@@ -12,7 +12,7 @@ const ContactComponent = () => {
               <h2>Contact Information</h2>
               <p>Address: <span className="contact-component-left-gray"> 198 West 21th Street, Suite 721 New York NY 10016</span></p>
               <p>Phone <span className="contact-component-left-gold"> +385 95 5999 518</span></p>
-              <p>Email: <span className="contact-component-left-gold"> lukacbt@gmail.com</span></p>
+              <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lukacbt@gmail.com" target="_blank"><span className="contact-component-left-gold"> lukacbt@gmail.com</span></a></p>
               <p>Website: <span className="contact-component-left-gold">lukakukina.com</span></p>
             </div>
           </Fade>

@@ -12,7 +12,7 @@
 
 .contact-component-left {
   color: white;
-  padding: 0;
+  padding: 0 0 0 20px;
   max-width: 358px;
 }
 
@@ -94,4 +94,28 @@
 .contact-component-right button:hover {
   background-color: transparent;
   color: #c49b63;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-component-container {
+    display: block;
+  }
+
+  .contact-component {
+    padding: 90px 0;
+  }
+
+  .contact-inp-div1 {
+    width: 100%;
+    display: block;
+  }
+
+  .contact-inp {
+    width: calc(100% - 40px);
+    margin: 0 20px 16px 20px;
+  }
+
+  .contact-page-map {
+    height: 300px;
+  }
 }
