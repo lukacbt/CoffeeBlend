@@ -104,20 +104,18 @@
 
 .scroll-burger-nav {
   max-height: 0;
-  height: 0;
+  height: auto;
   background-color: #151111;
   overflow: hidden;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .scrolled-burger {
   max-height: 655px;
-  height: 355px;
-  background-color: #151111;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
-.scroll-burger-nav .burger-nav-span {
+.burger-nav-span {
   display: block;
   cursor: pointer;
   padding: 24px 20px;
@@ -128,6 +126,10 @@
   line-height: 23.4px;
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
+}
+
+.burger-nav-span:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media only screen and (max-width: 768px) {
