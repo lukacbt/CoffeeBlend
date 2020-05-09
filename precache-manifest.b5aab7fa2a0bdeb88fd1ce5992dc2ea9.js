@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32231f570bee85ddb8ea3c8ea7d45c94",
+    "revision": "04f5af7ee54eaf639cacc0cb17066a35",
     "url": "/CoffeeBlend/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CoffeeBlend/static/css/2.cd1899df.chunk.css"
   },
   {
-    "revision": "dc1dc00eb1c2388092b7",
-    "url": "/CoffeeBlend/static/css/main.8a1027c9.chunk.css"
+    "revision": "99fd1168237ccd875dc9",
+    "url": "/CoffeeBlend/static/css/main.2f711033.chunk.css"
   },
   {
     "revision": "d0ab290cefe776e33159",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc1dc00eb1c2388092b7",
-    "url": "/CoffeeBlend/static/js/main.dfd585e1.chunk.js"
+    "revision": "99fd1168237ccd875dc9",
+    "url": "/CoffeeBlend/static/js/main.5938d4bf.chunk.js"
   },
   {
     "revision": "80d7be66f765536cd11a",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "74acd028bb854b22bae8b1b83fc8a477",
     "url": "/CoffeeBlend/static/media/bg_4.74acd028.jpg"
+  },
+  {
+    "revision": "daabca964550ef8e13583d21677a52ff",
+    "url": "/CoffeeBlend/static/media/burger-menu.daabca96.svg"
   },
   {
     "revision": "0084708bc326b6b25dd4f3d79bd9e665",

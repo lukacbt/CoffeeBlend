@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/CoffeeBlend/static/css/main.8a1027c9.chunk.css",
-    "main.js": "/CoffeeBlend/static/js/main.dfd585e1.chunk.js",
-    "main.js.map": "/CoffeeBlend/static/js/main.dfd585e1.chunk.js.map",
+    "main.css": "/CoffeeBlend/static/css/main.2f711033.chunk.css",
+    "main.js": "/CoffeeBlend/static/js/main.5938d4bf.chunk.js",
+    "main.js.map": "/CoffeeBlend/static/js/main.5938d4bf.chunk.js.map",
     "runtime-main.js": "/CoffeeBlend/static/js/runtime-main.03174a44.js",
     "runtime-main.js.map": "/CoffeeBlend/static/js/runtime-main.03174a44.js.map",
     "static/css/2.cd1899df.chunk.css": "/CoffeeBlend/static/css/2.cd1899df.chunk.css",
     "static/js/2.3dbb0b17.chunk.js": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js",
     "static/js/2.3dbb0b17.chunk.js.map": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js.map",
     "index.html": "/CoffeeBlend/index.html",
-    "precache-manifest.f2e3b831c8d7cc9eaf566291d334bd80.js": "/CoffeeBlend/precache-manifest.f2e3b831c8d7cc9eaf566291d334bd80.js",
+    "precache-manifest.b5aab7fa2a0bdeb88fd1ce5992dc2ea9.js": "/CoffeeBlend/precache-manifest.b5aab7fa2a0bdeb88fd1ce5992dc2ea9.js",
     "service-worker.js": "/CoffeeBlend/service-worker.js",
     "static/css/2.cd1899df.chunk.css.map": "/CoffeeBlend/static/css/2.cd1899df.chunk.css.map",
-    "static/css/main.8a1027c9.chunk.css.map": "/CoffeeBlend/static/css/main.8a1027c9.chunk.css.map",
+    "static/css/main.2f711033.chunk.css.map": "/CoffeeBlend/static/css/main.2f711033.chunk.css.map",
     "static/js/2.3dbb0b17.chunk.js.LICENSE.txt": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js.LICENSE.txt",
     "static/media/about.css": "/CoffeeBlend/static/media/about.69b979e6.jpg",
     "static/media/customers.css": "/CoffeeBlend/static/media/bg_1.bd212343.jpg",
     "static/media/brag.css": "/CoffeeBlend/static/media/bg_2.ef2ee04a.jpg",
     "static/media/bg_3.jpg": "/CoffeeBlend/static/media/bg_3.e292fa66.jpg",
     "static/media/foodcomponent.css": "/CoffeeBlend/static/media/bg_4.74acd028.jpg",
+    "static/media/burger-menu.daabca96.svg": "/CoffeeBlend/static/media/burger-menu.daabca96.svg",
     "static/media/coffee-beans.svg": "/CoffeeBlend/static/media/coffee-beans.0084708b.svg",
     "static/media/coffee-cup.1f2c7b05.svg": "/CoffeeBlend/static/media/coffee-cup.1f2c7b05.svg",
     "static/media/delivery-truck.svg": "/CoffeeBlend/static/media/delivery-truck.350b200b.svg",
@@ -65,7 +66,7 @@
     "static/js/runtime-main.03174a44.js",
     "static/css/2.cd1899df.chunk.css",
     "static/js/2.3dbb0b17.chunk.js",
-    "static/css/main.8a1027c9.chunk.css",
-    "static/js/main.dfd585e1.chunk.js"
+    "static/css/main.2f711033.chunk.css",
+    "static/js/main.5938d4bf.chunk.js"
   ]
 }
