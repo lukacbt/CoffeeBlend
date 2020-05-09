@@ -118,4 +118,8 @@
   .contact-page-map {
     height: 300px;
   }
+
+  .contact-component-right button {
+    margin: 0 0 20px 20px;
+  }
 }

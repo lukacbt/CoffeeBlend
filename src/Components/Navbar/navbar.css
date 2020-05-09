@@ -33,6 +33,26 @@
   color: #c49b63;
 }
 
+.hamburger-menu span {
+  cursor: pointer;
+  padding: 20px 0px 20px 10px;
+  font-size: 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 2px;
+  line-height: 23.4px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.burger g {
+  fill: white;
+}
+
 .navbar-left {
   text-align: center;
 }
@@ -68,6 +88,7 @@
 }
 
 .second-navbar .navbar {
+  max-width: 99.9vw;
   position: fixed !important;
   background-color: #151111 !important;
   top: -100px !important;
@@ -79,4 +100,71 @@
   position: fixed !important;
   top: 0 !important;
   transition: top 0.4s !important;
+}
+
+.scroll-burger-nav {
+  max-height: 0;
+  height: 0;
+  background-color: #151111;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.scrolled-burger {
+  max-height: 655px;
+  height: 355px;
+  background-color: #151111;
+  transition: all 0.4s;
+}
+
+.scroll-burger-nav .burger-nav-span {
+  display: block;
+  cursor: pointer;
+  padding: 24px 20px;
+  font-size: 13px;
+  font-family: "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 2px;
+  line-height: 23.4px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #151111 !important;
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    border-bottom: 0;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-container {
+    padding: 0 20px !important;
+  }
+
+  .navbar-left p {
+    padding-left: 0;
+  }
+
+  .second-navbar .navbar {
+    display: none;
+  }
+
+  .navbar {
+    max-width: 99.9vw;
+    position: fixed !important;
+    background-color: #151111 !important;
+    top: 0px !important;
+    border: 0;
+    transition: all 0.4s !important;
+  }
 }

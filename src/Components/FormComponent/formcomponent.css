@@ -75,4 +75,12 @@ input:-webkit-autofill:active {
     display: block;
     margin-bottom: 16px;
   }
+
+  .book-form {
+    width: calc(100% - 40px);
+  }
+
+  .table-form-btn {
+    width: calc(100% - 40px);
+  }
 }

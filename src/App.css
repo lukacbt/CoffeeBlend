@@ -2,3 +2,7 @@ button {
   outline: none;
   cursor: pointer;
 }
+
+.App {
+  overflow: hidden;
+}

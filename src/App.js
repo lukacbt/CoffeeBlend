@@ -12,12 +12,19 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      page: "home"
+      page: "home",
+      collapse: false
     }
   }
 
   handlePage = page => {
-    this.setState({ page })
+    let collapse = this.state.collapse
+    this.setState({ page, collapse: false })
+  }
+
+  collapseNavbar = () => {
+    let collapse = this.state.collapse
+    this.setState({ collapse: !collapse })
   }
 
   renderPage = () => {
@@ -38,10 +45,10 @@ class App extends Component {
   }
 
   render() {
-    const { page } = this.state
+    const { page, collapse } = this.state
     return (
       <div className="App">
-        <Navbar page={page} handlePage={this.handlePage} />
+        <Navbar collapse={collapse} collapseNavbar={this.collapseNavbar} page={page} handlePage={this.handlePage} />
         <div className="second-navbar">
           <Navbar page={page} handlePage={this.handlePage} />
         </div>
