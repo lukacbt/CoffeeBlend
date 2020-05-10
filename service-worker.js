@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CoffeeBlend/precache-manifest.b5aab7fa2a0bdeb88fd1ce5992dc2ea9.js"
+  "/CoffeeBlend/precache-manifest.84467151d42488d6c3abb4669895350f.js"
 );
 
 self.addEventListener('message', (event) => {

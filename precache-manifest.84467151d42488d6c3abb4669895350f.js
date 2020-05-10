@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04f5af7ee54eaf639cacc0cb17066a35",
+    "revision": "952db70aca51a2a372939b714da4781f",
     "url": "/CoffeeBlend/index.html"
   },
   {
-    "revision": "d0ab290cefe776e33159",
+    "revision": "6f7f5959bcd8c3d1cb67",
     "url": "/CoffeeBlend/static/css/2.cd1899df.chunk.css"
   },
   {
-    "revision": "99fd1168237ccd875dc9",
+    "revision": "c19b765ec021dce3575e",
     "url": "/CoffeeBlend/static/css/main.2f711033.chunk.css"
   },
   {
-    "revision": "d0ab290cefe776e33159",
-    "url": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js"
+    "revision": "6f7f5959bcd8c3d1cb67",
+    "url": "/CoffeeBlend/static/js/2.f212c94d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/CoffeeBlend/static/js/2.3dbb0b17.chunk.js.LICENSE.txt"
+    "url": "/CoffeeBlend/static/js/2.f212c94d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99fd1168237ccd875dc9",
-    "url": "/CoffeeBlend/static/js/main.5938d4bf.chunk.js"
+    "revision": "c19b765ec021dce3575e",
+    "url": "/CoffeeBlend/static/js/main.c1dd330c.chunk.js"
   },
   {
     "revision": "80d7be66f765536cd11a",
