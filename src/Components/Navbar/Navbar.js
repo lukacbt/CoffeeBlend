@@ -33,15 +33,15 @@ class Navbar extends Component {
         <div id="navbar" className={`columns navbar ${this.state.sticky ? "sticky-navbar" : ""}`}>
           <div className="column is-offset-2-desktop is-8-desktop is-12-tablet navbar-container"> 
             <div className="navbar-left">
-            <a href="#navbar"><p onClick={() => handlePage("home")} >Coffee <span>Blend</span></p></a>
+            <p onClick={() => handlePage("home")} >Coffee <span>Blend</span></p>
             </div>
             <div className="navbar-right">
               <p>
-                <a href="#navbar"><span onClick={() => handlePage("home")} className={page === "home" ? "active-nav" : ""}>Home</span></a>
-                <a href="#navbar"><span onClick={() => handlePage("menu")} className={page === "menu" ? "active-nav" : ""}>Menu</span></a>
-                <a href="#navbar"><span onClick={() => handlePage("services")} className={page === "services" ? "active-nav" : ""}>Services</span></a>
-                <a href="#navbar"><span onClick={() => handlePage("about")} className={page === "about" ? "active-nav" : ""}>About</span></a>
-                <a href="#navbar"><span onClick={() => handlePage("contact")} className={page === "contact" ? "active-nav" : ""}>Contact</span></a>
+                <span onClick={() => handlePage("home")} className={page === "home" ? "active-nav" : ""}>Home</span>
+                <span onClick={() => handlePage("menu")} className={page === "menu" ? "active-nav" : ""}>Menu</span>
+                <span onClick={() => handlePage("services")} className={page === "services" ? "active-nav" : ""}>Services</span>
+                <span onClick={() => handlePage("about")} className={page === "about" ? "active-nav" : ""}>About</span>
+                <span onClick={() => handlePage("contact")} className={page === "contact" ? "active-nav" : ""}>Contact</span>
               </p>
             </div>
             <div onClick={collapseNavbar} className="hamburger-menu">
@@ -51,11 +51,11 @@ class Navbar extends Component {
           </div>
           <div className={`scroll-burger-nav ${collapse ? "scrolled-burger" : ""}`}>
             <p >
-              <a className="burger-nav-span" href="#navbar"><span onClick={() => handlePage("home")} className={page === "home" ? "active-nav" : ""}>Home</span></a>
-              <a className="burger-nav-span" href="#navbar"><span onClick={() => handlePage("menu")} className={page === "menu" ? "active-nav" : ""}>Menu</span></a>
-              <a className="burger-nav-span" href="#navbar"><span onClick={() => handlePage("services")} className={page === "services" ? "active-nav" : ""}>Services</span></a>
-              <a className="burger-nav-span" href="#navbar"><span onClick={() => handlePage("about")} className={page === "about" ? "active-nav" : ""}>About</span></a>
-              <a className="burger-nav-span" href="#navbar"><span onClick={() => handlePage("contact")} className={page === "contact" ? "active-nav" : ""}>Contact</span></a>
+              <a className="burger-nav-span"><span className="burger-nav-span" onClick={() => handlePage("home")} className={page === "home" ? "active-nav" : ""}>Home</span></a>
+              <a className="burger-nav-span"><span className="burger-nav-span" onClick={() => handlePage("menu")} className={page === "menu" ? "active-nav" : ""}>Menu</span></a>
+              <a className="burger-nav-span"><span className="burger-nav-span" onClick={() => handlePage("services")} className={page === "services" ? "active-nav" : ""}>Services</span></a>
+              <a className="burger-nav-span"><span className="burger-nav-span" onClick={() => handlePage("about")} className={page === "about" ? "active-nav" : ""}>About</span></a>
+              <a className="burger-nav-span"><span className="burger-nav-span" onClick={() => handlePage("contact")} className={page === "contact" ? "active-nav" : ""}>Contact</span></a>
             </p>
           </div>
         </div>

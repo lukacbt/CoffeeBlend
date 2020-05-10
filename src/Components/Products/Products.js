@@ -6,7 +6,7 @@ const Products = ({ products, handlePage, howMany, button }) => {
     <div className="columns">
       <div className="column product-menu">
         {products.map((product, i) => {
-          if(i < howMany)
+          if(i < howMany){
           return(
             <div key={product.id} className="product-container">
               <div className="products-img-container" style={{backgroundImage: `url(${product.image})`}}></div>
@@ -18,7 +18,7 @@ const Products = ({ products, handlePage, howMany, button }) => {
               </div>
             </div>
            )
-        })}
+        }})}
       </div>
     </div>
   )

@@ -18,7 +18,8 @@ class App extends Component {
   }
 
   handlePage = page => {
-    let collapse = this.state.collapse
+    document.body.screenTop = 0
+    document.documentElement.scrollTop = 0
     this.setState({ page, collapse: false })
   }
 

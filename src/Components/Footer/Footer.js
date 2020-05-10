@@ -67,7 +67,7 @@ const Footer = () => {
                 <div className="contact-logo-container">
                   <Mail className="contact-logo" />
                 </div>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lukacbt@gmail.com" target="_blank"><p style={{color:"white"}}>lukacbt@gmail.com</p></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lukacbt@gmail.com" target="_blank" rel="noopener noreferrer"><p style={{color:"white"}}>lukacbt@gmail.com</p></a>
               </div>
             </div>
           </div>        
