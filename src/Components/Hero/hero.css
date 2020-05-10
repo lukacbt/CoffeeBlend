@@ -43,3 +43,10 @@
 .hero-subtitle-right {
   color: rgb(191, 191, 191);
 }
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    background-attachment: initial;
+    background-position: 40% 50%;
+  }
+}
